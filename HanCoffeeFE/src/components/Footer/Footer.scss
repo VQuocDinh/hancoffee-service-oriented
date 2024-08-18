@@ -1,0 +1,60 @@
+$white-color: #ffffff; // Định nghĩa biến màu trắng (nếu cần)
+
+.footer {
+  background-color: black;
+  height: 300px;
+  color: var(--white-color);
+  margin-top: 200px;
+
+  &__contain {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-around;
+
+    &-left {
+      width: calc(100% / 3);
+
+      > p {
+        margin-top: 16px;
+      }
+    }
+
+    &-center {
+      &-list {
+        position: relative;
+        list-style: none;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        > li {
+          position: relative;
+          transition: right linear .1s;
+
+          &:hover {
+            color: #ccc;
+            right: -4px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      &-social {
+        margin-top: 16px;
+        display: flex;
+        gap: 20px;
+
+        .social-logo {
+          width: 50px;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 60%;
+          }
+        }
+      }
+    }
+  }
+}

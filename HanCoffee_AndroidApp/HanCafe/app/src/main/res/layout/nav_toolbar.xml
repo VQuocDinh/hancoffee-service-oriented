@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/red">
+
+        <ImageButton
+            android:id="@+id/imgBtnDrawerToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="drawer toggle"
+            android:src="@drawable/round_dehaze_48" />
+
+        <TextView
+            android:id="@+id/txtToolBarChangeName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Khách hàng"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

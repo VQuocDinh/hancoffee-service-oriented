@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #8b0305;
+    --border-color: #dbdbdb;
+    --hover-color: #fafafa;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.app {
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    background-color: var(--white-color);
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #a9a9a9;
+}
+.app-content {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.app {
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    background-color: var(--white-color);
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

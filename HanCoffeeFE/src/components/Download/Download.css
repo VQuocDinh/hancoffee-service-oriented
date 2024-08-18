@@ -1,0 +1,44 @@
+.download {
+    padding-top: 150px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.download__content {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+    
+}
+
+.download__heading {
+    font-size: 60px;
+    margin-bottom: 16px;
+
+}
+
+.download__desc {
+
+}
+
+.download__link {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.download__link-app {
+    width: 150px;
+
+}
+
+.download__img{
+    margin-left: auto;
+}
+
+.download__img > img{
+    width: 100%;
+
+}

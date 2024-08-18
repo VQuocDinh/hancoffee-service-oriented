@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <!-- ImageView để hiển thị hình ảnh sản phẩm -->
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ca_phe_xay" />
+
+    <!-- TextView để hiển thị thông tin sản phẩm -->
+    <TextView
+        android:id="@+id/tvName"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:text="Price"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvDescribe"
+        android:text="Describe"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+</LinearLayout>

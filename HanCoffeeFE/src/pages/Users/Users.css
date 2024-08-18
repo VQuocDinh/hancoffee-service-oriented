@@ -1,0 +1,68 @@
+.users-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.users-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.users-table-header {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 12px 15px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 5px;
+}
+
+.users-table-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.users-table-row img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.users-table-row select {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.users-table-row button {
+    background-color: #8b0305;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.users-table-row button:hover {
+    background-color: #680707;
+}

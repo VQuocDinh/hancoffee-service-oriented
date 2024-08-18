@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr"
+    tools:context=".Controller.Activity.Auth.Login">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="103dp"
+        android:gravity="center"
+        android:text="LET'S GO"
+        android:textColor="#FFF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvQUenMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="Quên mật khẩu"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="Bạn chưa có tài khoản?"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="228dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:gravity="center_vertical"
+        android:hint="Email/Số điện thoại"
+        android:textColor="@color/white"
+        android:textColorHint="#909090"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="84dp"
+        android:padding="0dp"
+        android:text="Đăng nhập"
+        android:textColor="#8B0305"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtMK"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_lock_outline_24"
+        android:gravity="center_vertical"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#909090"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/cbNhoMK"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="132dp"
+        android:text="Nhớ mật khẩu"
+        android:textColor="#FFFFFF"
+        app:buttonIconTint="#000000"
+        app:buttonTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

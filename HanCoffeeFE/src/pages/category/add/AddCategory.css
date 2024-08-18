@@ -1,0 +1,83 @@
+.add-category {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.add-category form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.add-img-upload p,
+.add-category-name p {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.add-img-upload label {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.add-img-upload img {
+    width: 100%;
+    height: auto;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.add-category-name input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background-color: #8b0305;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #680707;
+}
+
+@media (max-width: 600px) {
+    .add-category form {
+        padding: 15px;
+    }
+
+    .add-img-upload label {
+        max-width: 100%;
+    }
+
+    .add-category-name input {
+        padding: 8px;
+    }
+
+    .add-btn {
+        padding: 8px 15px;
+    }
+}

@@ -1,0 +1,27 @@
+version: '3'
+services:
+  backend:
+    build: ./HanCoffeeBE
+    ports:
+      - '4000:4000'
+    environment:
+      MONGO_URL: mongodb://mongo:27017/your-database
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./HanCoffeeFE
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

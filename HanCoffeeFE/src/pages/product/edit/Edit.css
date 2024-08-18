@@ -1,0 +1,124 @@
+.edit {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+.edit form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.edit-flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.edit-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.edit-img-upload p,
+.edit-product-name p,
+.edit-product-description p,
+.edit-categories p,
+.edit-price p,
+.edit-quantity p {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.edit-img-upload label {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.edit-img-upload img {
+    width: 100%;
+    height: auto;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.edit-product-name input,
+.edit-product-description textarea,
+.edit-categories select,
+.edit-price input,
+.edit-quantity input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-product-description textarea {
+    resize: vertical;
+}
+
+.edit-category-price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.edit-categories,
+.edit-price,
+.edit-quantity {
+    flex: 1;
+}
+
+.edit-btn {
+    padding: 8px 16px;
+    background-color: #8b0305;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    align-self: center;
+}
+
+.edit-btn:hover {
+    background-color: #680707;
+}
+
+@media (max-width: 600px) {
+    .edit form {
+        padding: 15px;
+    }
+
+    .edit-img-upload label {
+        max-width: 100%;
+    }
+
+    .edit-product-name input,
+    .edit-product-description textarea,
+    .edit-categories select,
+    .edit-price input,
+    .edit-quantity input {
+        padding: 8px;
+    }
+
+    .edit-category-price-quantity {
+        flex-direction: column;
+    }
+
+    .edit-btn {
+        padding: 8px 15px;
+    }
+}

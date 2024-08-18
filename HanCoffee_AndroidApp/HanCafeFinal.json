@@ -1,0 +1,321 @@
+{
+  "CartDetail": {
+    "-Nxpy1oGGwLdr9gu_1it": {
+      "idCart": "4LwLPtOv8PciFnR6kQV40oU6xrv1",
+      "idCartItem": 3,
+      "idProduct": "-NxMUCcWoQhTz8Ys63DT",
+      "idSize": 0,
+      "quantity": 1
+    },
+    "-Nxq1QfRq9KbFzrIpFBN": {
+      "idCart": "4LwLPtOv8PciFnR6kQV40oU6xrv1",
+      "idCartItem": 4,
+      "idProduct": "-NxMUCcWoQhTz8Ys63DT",
+      "idSize": 0,
+      "quantity": 1
+    },
+    "-Nxq1zoELmyXvtKH30Hn": {
+      "idCart": "4LwLPtOv8PciFnR6kQV40oU6xrv1",
+      "idCartItem": 5,
+      "idProduct": "-NxLYydbOT2loWk_C1o_",
+      "idSize": 0,
+      "quantity": 1
+    }
+  },
+  "Category_Order_Management": [
+    {
+      "idCategory": 1,
+      "nameCategory": "Chờ xác nhận"
+    },
+    {
+      "idCategory": 2,
+      "nameCategory": "Chờ giao hàng"
+    },
+    {
+      "idCategory": 3,
+      "nameCategory": "Đã giao"
+    },
+    {
+      "idCategory": 4,
+      "nameCategory": "Đã hủy"
+    }
+  ],
+  "Category_Products": {
+    "-NxFyxQwWwCKPM1CGpCW": {
+      "curl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesCategory%2F5de092fd-704c-44ea-befe-f8a22a2f5da4?alt=media&token=dcbcfca5-a932-4d81-96c0-82a214c4f8bf",
+      "id": "-NxFyxQwWwCKPM1CGpCW",
+      "name": "Cà phê",
+      "status": 0
+    },
+    "-NxFzYpetlCt4xyqTJ7P": {
+      "curl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesCategory%2Fce55ba91-d7f5-4f00-b334-b8e66380284f?alt=media&token=cf9e53df-d989-42d8-a3eb-e814450998a6",
+      "id": "-NxFzYpetlCt4xyqTJ7P",
+      "name": "Sinh tố",
+      "status": 1
+    },
+    "-NxFzcP3GxT3yf3y5TZ5": {
+      "curl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesCategory%2Fb19809df-f239-455d-a6db-2039542f9d69?alt=media&token=257b314e-4e3e-406b-9358-c841fcd39420",
+      "id": "-NxFzcP3GxT3yf3y5TZ5",
+      "name": "Trà sữa",
+      "status": 0
+    },
+    "-NxFziDbzkvB9ylfvC1v": {
+      "curl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesCategory%2F99862542-1b66-41e1-956c-603184fca4f9?alt=media&token=f8927bf5-78cd-4c9d-95de-3dea33cb3443",
+      "id": "-NxFziDbzkvB9ylfvC1v",
+      "name": "Nước ép hoa quả",
+      "status": 0
+    },
+    "-NxFzmHFLOppgdV4kY-F": {
+      "curl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesCategory%2F7a9594e5-d434-4d34-b88a-f033ea4be288?alt=media&token=76d05f68-0a05-41b1-94e3-98b15a89bdc0",
+      "id": "-NxFzmHFLOppgdV4kY-F",
+      "name": "Soda",
+      "status": 0
+    }
+  },
+  "OrderDetail": {
+    "-Nxvij0yOELZXDSpc0rE": {
+      "idOrder": "-NxviixuAQAYRpqq2C07",
+      "idOrderDetail": "-Nxvij0yOELZXDSpc0rE",
+      "idSize": 0,
+      "imgProduct": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2Fcc483ce7-8782-4a5d-a90a-c368d4f4b3b7?alt=media&token=a9eea9ba-e363-42dc-b801-b8db8491fd95",
+      "nameProduct": "Nước ép cam",
+      "priceProduct": 20000,
+      "quantity": 1
+    },
+    "-Nxvp4wutFXXFoY2RQKO": {
+      "idOrder": "-Nxvp4srOrgIe1B-beuI",
+      "idOrderDetail": "-Nxvp4wutFXXFoY2RQKO",
+      "idSize": 0,
+      "imgProduct": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F0bbd9f5a-4b0c-476e-82d3-68598502a071?alt=media&token=04b3cb22-fe95-42e5-9ca2-c18f339ff3f2",
+      "nameProduct": "Capuchino",
+      "priceProduct": 20000,
+      "quantity": 1
+    },
+    "-NxvqjVIBp3lA46wEtG3": {
+      "idOrder": "-NxvqjRyU7XQj_gEmPNT",
+      "idOrderDetail": "-NxvqjVIBp3lA46wEtG3",
+      "idSize": 0,
+      "imgProduct": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F94496748-4f1e-4e71-99fa-06d3a1ca50bc?alt=media&token=72bd495c-7621-46bf-a5c1-ee151f21a304",
+      "nameProduct": "Soda chanh",
+      "priceProduct": 32000,
+      "quantity": 1
+    },
+    "-NxvqjVJOKp9WzjLlrJZ": {
+      "idOrder": "-NxvqjRyU7XQj_gEmPNT",
+      "idOrderDetail": "-NxvqjVJOKp9WzjLlrJZ",
+      "idSize": 0,
+      "imgProduct": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F8b41c400-4612-4673-ac78-29af9196f683?alt=media&token=2da93244-fd12-4416-86c1-36ec892f6922",
+      "nameProduct": "Cà phê đen",
+      "priceProduct": 18000,
+      "quantity": 1
+    },
+    "-NxzoBPBlxOQC6pUJQOM": {
+      "idOrder": "-NxzoBKlpOiCcQ20wfFx",
+      "idOrderDetail": "-NxzoBPBlxOQC6pUJQOM",
+      "idSize": 0,
+      "imgProduct": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F0bbd9f5a-4b0c-476e-82d3-68598502a071?alt=media&token=04b3cb22-fe95-42e5-9ca2-c18f339ff3f2",
+      "nameProduct": "Capuchino",
+      "priceProduct": 20000,
+      "quantity": 1
+    }
+  },
+  "Order_Management": {
+    "-NxviixuAQAYRpqq2C07": {
+      "date": "15/5/2024",
+      "id": "-NxviixuAQAYRpqq2C07",
+      "idCategory": 4,
+      "idUser": "y48W2Gqk4ETuq4vsPmCojj2s5Hx1",
+      "price": 10000
+    },
+    "-Nxvp4srOrgIe1B-beuI": {
+      "date": "15/5/2024",
+      "id": "-Nxvp4srOrgIe1B-beuI",
+      "idCategory": 4,
+      "idUser": "y48W2Gqk4ETuq4vsPmCojj2s5Hx1",
+      "price": 20000
+    },
+    "-NxvqjRyU7XQj_gEmPNT": {
+      "date": "15/5/2024",
+      "id": "-NxvqjRyU7XQj_gEmPNT",
+      "idCategory": 1,
+      "idUser": "y48W2Gqk4ETuq4vsPmCojj2s5Hx1",
+      "price": 50000
+    },
+    "-NxzoBKlpOiCcQ20wfFx": {
+      "date": "16/5/2024",
+      "id": "-NxzoBKlpOiCcQ20wfFx",
+      "idCategory": 4,
+      "idUser": "y48W2Gqk4ETuq4vsPmCojj2s5Hx1",
+      "price": 20000
+    }
+  },
+  "Products": {
+    "-NxLYydbOT2loWk_C1o_": {
+      "describe": "Ngon",
+      "id": "-NxLYydbOT2loWk_C1o_",
+      "idCategory": "-NxFyxQwWwCKPM1CGpCW",
+      "name": "Capuchino",
+      "price": 20000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F0bbd9f5a-4b0c-476e-82d3-68598502a071?alt=media&token=04b3cb22-fe95-42e5-9ca2-c18f339ff3f2",
+      "status": 0
+    },
+    "-NxMTtbqCVBYvgrt4sTH": {
+      "describe": "ngon",
+      "id": "-NxMTtbqCVBYvgrt4sTH",
+      "idCategory": "-NxFzYpetlCt4xyqTJ7P",
+      "name": "Sinh tố dâu",
+      "price": 32000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2Fdc007679-7962-40e5-90e4-89ded3714b14?alt=media&token=bc89c9ed-efbe-4506-a1e0-3cc03298d504",
+      "status": 1
+    },
+    "-NxMU2QT_dKL--i6Zx0D": {
+      "describe": "ngon",
+      "id": "-NxMU2QT_dKL--i6Zx0D",
+      "idCategory": "-NxFziDbzkvB9ylfvC1v",
+      "name": "Nước ép cam",
+      "price": 20000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2Fcc483ce7-8782-4a5d-a90a-c368d4f4b3b7?alt=media&token=a9eea9ba-e363-42dc-b801-b8db8491fd95",
+      "status": 0
+    },
+    "-NxMUCcWoQhTz8Ys63DT": {
+      "describe": "mát",
+      "id": "-NxMUCcWoQhTz8Ys63DT",
+      "idCategory": "-NxFzmHFLOppgdV4kY-F",
+      "name": "Soda chanh",
+      "price": 32000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F94496748-4f1e-4e71-99fa-06d3a1ca50bc?alt=media&token=72bd495c-7621-46bf-a5c1-ee151f21a304",
+      "status": 0
+    },
+    "-NxMULYoIAxhqRw6ILaf": {
+      "describe": "béo",
+      "id": "-NxMULYoIAxhqRw6ILaf",
+      "idCategory": "-NxFzcP3GxT3yf3y5TZ5",
+      "name": "Trà sữa khoai môn",
+      "price": 28000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F29566ed0-78dd-4b27-b419-b42bbc159d60?alt=media&token=514416e6-668a-4203-8a93-ac271f08d6d2",
+      "status": 0
+    },
+    "-NxMUxsRYAsaROPJ0Iqi": {
+      "describe": "đắng",
+      "id": "-NxMUxsRYAsaROPJ0Iqi",
+      "idCategory": "-NxFyxQwWwCKPM1CGpCW",
+      "name": "Cà phê đen",
+      "price": 18000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F8b41c400-4612-4673-ac78-29af9196f683?alt=media&token=2da93244-fd12-4416-86c1-36ec892f6922",
+      "status": 0
+    },
+    "-NxMV6PK4fWePYycOriy": {
+      "describe": "ngon mát",
+      "id": "-NxMV6PK4fWePYycOriy",
+      "idCategory": "-NxFziDbzkvB9ylfvC1v",
+      "name": "Nước ép dưa hấu",
+      "price": 25000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F54821d41-aec0-4874-bc23-e2808f78c93a?alt=media&token=aeef577b-b32a-45e5-9d13-323031a7d7f3",
+      "status": 0
+    },
+    "-NxMVJL9SjtzjlNvEBs6": {
+      "describe": "ngon",
+      "id": "-NxMVJL9SjtzjlNvEBs6",
+      "idCategory": "-NxFzcP3GxT3yf3y5TZ5",
+      "name": "Trà sữa trân châu",
+      "price": 25000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2Fa0ceabc4-fb15-49f8-b4fd-164b4af8f264?alt=media&token=31b49ca4-cedc-4de4-a199-e6f93015f495",
+      "status": 0
+    },
+    "-NxMVUK66uIgpCE3RovO": {
+      "describe": "ngon quá",
+      "id": "-NxMVUK66uIgpCE3RovO",
+      "idCategory": "-NxFzYpetlCt4xyqTJ7P",
+      "name": "Sinh tố bơ",
+      "price": 28000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2Fa579aad7-ed87-47a9-98ce-24b6f1e84caf?alt=media&token=62c57d14-4054-40db-bab8-47e6cfd8c45c",
+      "status": 1
+    },
+    "-NxMWMX5h1xzAmmcmx9H": {
+      "describe": "mát",
+      "id": "-NxMWMX5h1xzAmmcmx9H",
+      "idCategory": "-NxFzmHFLOppgdV4kY-F",
+      "name": "Soda thanh long",
+      "price": 30000,
+      "purl": "https://firebasestorage.googleapis.com/v0/b/hancafe-3b24f.appspot.com/o/imagesProduct%2F675c896c-4d6a-4f4d-996b-952a9a3aa360?alt=media&token=319a73a4-71b3-4158-8362-537676d34a26",
+      "status": 0
+    }
+  },
+  "Promotion": {
+    "-NxNf79KRcDLr6EWplyb": {
+      "code": "-NxNf79KRcDLr6EWplyb",
+      "description": "Giảm 50% bill",
+      "discount": "50%",
+      "endTime": "24/08/2024",
+      "name": "Khuyến mãi 1",
+      "startTime": "23/06/2024"
+    },
+    "-NxNfr8JwTuRBlvQ-7T5": {
+      "code": "-NxNfr8JwTuRBlvQ-7T5",
+      "description": "Giảm giá 20% hóa đơn",
+      "discount": "20%",
+      "endTime": "23/06/20222",
+      "name": "Khuyến mãi 2",
+      "startTime": "24/06/2002"
+    },
+    "-NxNnEAfU7iP_FXQZ_KG": {
+      "code": "-NxNnEAfU7iP_FXQZ_KG",
+      "description": "Giảm 10k",
+      "discount": "10000đ",
+      "endTime": "24/06/2002",
+      "name": "Khuyến mãi 3",
+      "startTime": "23/06/2002"
+    }
+  },
+  "Size": [
+    {
+      "id": 0,
+      "name": "S"
+    },
+    {
+      "id": 1,
+      "name": "M"
+    },
+    {
+      "id": 2,
+      "name": "L"
+    }
+  ],
+  "Users": {
+    "4LwLPtOv8PciFnR6kQV40oU6xrv1": {
+      "date": "",
+      "email": "vqdinh2202@gmail.com",
+      "id": "4LwLPtOv8PciFnR6kQV40oU6xrv1",
+      "name": "",
+      "phone": "",
+      "role": 2
+    },
+    "FN3eXwgydnP73VQzQ3qdg3lDQ1h1": {
+      "address": "303 duong so 442",
+      "date": "04/05/2024",
+      "email": "vantintty2019@gmail.com",
+      "id": "FN3eXwgydnP73VQzQ3qdg3lDQ1h1",
+      "name": "Van Trung Tin",
+      "phone": "0347547860",
+      "role": 2
+    },
+    "dNCRY8iJsVfJwRBCvhleYQrLbf03": {
+      "address": "303 Đường số 442, Tăng Nhơn Phú A, Quận 9, Thành phố Hồ Chí Minh, Vietnam",
+      "date": "02/05/2024",
+      "email": "thaidatho2002@gmail.com",
+      "id": "dNCRY8iJsVfJwRBCvhleYQrLbf03",
+      "name": "Hồ Thái Đạt",
+      "phone": "0347547860",
+      "role": 0
+    },
+    "y48W2Gqk4ETuq4vsPmCojj2s5Hx1": {
+      "address": "41 Đ. 449, Tăng Nhơn Phú A, Quận 9, Thành phố Hồ Chí Minh, Vietnam",
+      "date": "01/05/2024",
+      "email": "thaidatit202@gmail.com",
+      "id": "y48W2Gqk4ETuq4vsPmCojj2s5Hx1",
+      "name": "Ho Thai Dat",
+      "phone": "0347547860",
+      "role": 2
+    }
+  }
+}

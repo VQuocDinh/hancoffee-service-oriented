@@ -1,0 +1,119 @@
+.list-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.handle-button-end {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background-color: #8b0305;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #680707;
+}
+
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list-table-format {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+    align-items: center; /* Center align items vertically */
+    gap: 10px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.list-table-format:hover {
+    background-color: #f1f1f1;
+}
+
+.list-table-format.title {
+    background-color: #343a40;
+    color: white;
+    border-radius: 5px;
+}
+
+.list-table-format.title b {
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-table-format .product-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.list-table-format img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.list-table-format .action-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.list-table-format p,
+.list-table-format b {
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 1.5; /* Same line-height for both */
+    display: flex;
+    align-items: center; /* Center align the content vertically */
+    height: 100%; /* Make sure the height is consistent */
+}
+
+@media (max-width: 768px) {
+    .list-table-format {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .list-table-format.title {
+        display: none;
+    }
+
+    .list-table-format p:nth-child(n + 3),
+    .list-table-format img:nth-child(n + 3) {
+        display: none;
+    }
+
+    .list-table-format .action-icon {
+        justify-content: flex-end;
+    }
+}

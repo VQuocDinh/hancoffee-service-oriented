@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khuyến mãi"/>
+
+    <EditText
+        android:id="@+id/edit_text_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mức khuyến mãi"/>
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"/>
+
+    <EditText
+        android:id="@+id/edit_text_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian bắt đầu"/>
+
+    <EditText
+        android:id="@+id/edit_text_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian kết thúc"/>
+
+</LinearLayout>

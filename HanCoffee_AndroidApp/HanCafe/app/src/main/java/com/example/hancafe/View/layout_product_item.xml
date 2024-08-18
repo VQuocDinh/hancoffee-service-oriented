@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img1"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/tvTenSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên: "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nametext"
+            android:text="Tên sản phẩm"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/tvTenSP" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvGia"
+            android:text="Giá: "
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/nametext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pricetext"
+            android:text="10000"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/tvGia"
+            android:layout_below="@id/nametext"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDong"
+            android:text=" đ"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/pricetext"
+            android:layout_below="@id/nametext"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMoTa"
+            android:text="Mô tả: "
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/pricetext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/describetext"
+            android:text="Mô tả sản phẩm"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/tvMoTa"
+            android:layout_below="@id/pricetext"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSoLuong"
+            android:text="| Số lượng: "
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/tvDong"
+            android:layout_below="@id/nametext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvQuantity"
+            android:text="100"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/tvSoLuong"
+            android:layout_below="@id/nametext"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_below="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Edit"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_button_product"
+                android:backgroundTint="@color/red"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Delete"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_button_product"
+                android:backgroundTint="@color/red"
+                android:id="@+id/btnDelete"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

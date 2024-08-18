@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HanCafe</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="title_product">Sản phẩm</string>
+    <string name="title_other">Khác</string>
+    <!-- Quản lý đặt hàng -->
+    <string name="title_order_management">Lịch sử đơn hàng</string>
+    <string name="title_confirm">Chờ xác nhận</string>
+    <string name="title_delivery">Đang giao hàng</string>
+    <string name="title_complete">Đã giao</string>
+    <string name="title_cancel">Đã hủy</string>
+
+    <!-- Giao diện Admin -->
+    <string name="title_activity_main_admin">Han Cafe</string>
+    <string name="title_txt_logo">Han<font color='#8B0305'>Cafe</font></string>
+    <string name="title_nav_user">Khách hàng</string>
+    <string name="title_nav_staff">Nhân viên</string>
+    <string name="title_nav_product">Sản phẩm</string>
+    <string name="title_nav_category_product">Danh mục sản phẩm</string>
+    <string name="title_nav_order">Đặt hàng</string>
+    <string name="title_nav_information_person">Thông tin cá nhân</string>
+    <string name="title_nav_statistic_report">Báo cáo thống kê</string>
+    <string name="title_nav_log_out">Đăng xuất</string>
+
+    <!-- Rỗng -->
+    <string name="title_order_status_product_empty">Chưa có sản phẩm nào được thêm vào giỏ hàng</string>
+    <string name="title_order_status_confirm_empty">Chưa có đơn hàng ở trạng thái chờ xác nhận</string>
+    <string name="title_order_status_delivery_empty">Chưa có đơn hàng ở trạng thái đang giao hàng</string>
+    <string name="title_order_status_complete_empty">Chưa có đơn hàng ở trạng thái đã giao</string>
+    <string name="title_order_status_cancel_empty">Chưa có đơn hàng ở trạng thái đã hủy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,99 @@
+.customer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-customer-form {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.add-customer-form h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.add-customer-form input,
+.add-customer-form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-customer-form button {
+    background-color: #8b0305;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-customer-form button:hover {
+    background-color: #680707;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-table-header,
+.customer-table-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.customer-table-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 5px;
+}
+
+.customer-table-row {
+    font-size: 14px;
+}
+
+.customer-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #8b0305;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #680707;
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "447329430591",
+	"firebase_url": "https://hancafe-3b24f-default-rtdb.firebaseio.com",
+    "project_id": "hancafe-3b24f",
+    "storage_bucket": "hancafe-3b24f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447329430591:android:e1cf3ce9cb908a1002dc8a",
+        "android_client_info": {
+          "package_name": "com.example.hancafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHIwEobPeush309aaAuBbdWOnVfYpOWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

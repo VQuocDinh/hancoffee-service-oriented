@@ -1,0 +1,150 @@
+$product-primary-color: var(--primary-color);
+$white-color: var(--white-color);
+
+.product {
+  padding-top: 150px;
+  text-align: center;
+
+  &__heading {
+    text-transform: capitalize;
+  }
+
+  &__list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+    row-gap: 50px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 8px;
+      position: relative;
+      width: 100%;
+      min-height: 400px;
+      box-shadow: 0 0 20px #ccc;
+      border-radius: 2px;
+      transition: top linear 0.1s;
+      animation: fadeIn 1s;
+      overflow: hidden;
+
+      &:hover {
+        top: -8px;
+        cursor: pointer;
+      }
+
+      .item-img {
+        width: 100%;
+        height: 227px;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
+
+.item__content {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  &-name {
+    > p {
+      width: 100%;
+      font-weight: 500;
+      font-size: 24px;
+      margin-bottom: 8px;
+      text-align: start;
+    }
+  }
+
+  &-price {
+    color: $product-primary-color;
+    text-align: left;
+  }
+
+  &-add-cart {
+    margin-top: auto;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    &:hover {
+      color: $product-primary-color;
+    }
+  }
+}
+
+.product_modal {
+  background: white;
+  border-radius: 2px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+
+  &-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &-name {
+      // Thêm các quy tắc nếu cần
+    }
+
+    &-img {
+      width: 100%;
+      height: 500px;
+      padding-block: 20px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &-quantity {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      > button {
+        padding-inline: 10px;
+        border: 1px solid #ccc;
+      }
+    }
+
+    &-add {
+      display: flex;
+      margin-left: auto;
+      padding: 10px;
+      background-color: $product-primary-color;
+      color: $white-color;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+  }
+}
+
+.active {
+  border-bottom: 2px solid $product-primary-color;
+}
